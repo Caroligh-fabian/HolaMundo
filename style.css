@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+header{background-color: rgb(195, 226, 226);
+    width:100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin:15px ;
+}
+#a{
+    margin: 10px;
+    text-decoration: none;
+}
+img{width:150px;
+}
+.presentacion{
+    width: 100 px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h3{
+    font-size:40px ;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: palevioletred;
+}
+#nosotros iframe{
+    padding:10px;
+    margin:10px;
+    background-color: green;
+}
+
+h4{font-size:29px;
+    color: rgb(27, 2, 97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{font-size:25x;
+color: rgb(20, 17, 22);
+font-family: Arial, Helvetica, sans-serif;
+}
+.cajamenu{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    flex-direction:row;
+    
+    border-color:rgb(195, 226, 226);
+}
+.cajacontenedor{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    margin: 10px 0px 10px;
+    background-color: rgb(130, 225, 241);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img {
+    border-radius:50% ;
+}

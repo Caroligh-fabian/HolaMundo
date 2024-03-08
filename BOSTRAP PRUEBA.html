@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Ejemplo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 bg-info">
+                <h1>Prueba</h1>
+            </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/logo1.png" alt="log">
+                </div>
+            </div>
+
+               <!-- Carrusel Bootstrap -->
+        <div id="miCarrusel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Diapositiva 1 -->
+                <div class="carousel-item active">
+                    <img src="./imagenes/emoji1.jpeg" class="d-block w-100" alt="1">
+                </div>
+                <!-- Diapositiva 2 -->
+                <div class="carousel-item">
+                    <img src="./imagenes/emji2.jpeg" class="d-block w-100" alt="2">
+                </div>
+                <!-- Diapositiva 3 -->
+                <div class="carousel-item">
+                    <img src="./imagenes/emoji3.jpeg" class="d-block w-100" alt="3">
+                </div>
+            </div>
+            <!-- Controles del carrusel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+      
+        <div class="row">
+            <div class="col-md-4 bg-danger">
+                <h1>PRIMERA FILA</h1>
+                <p>Supuestmente debe ser la primera fila jsjsgbbmfhgsagd,jhgfgsjdxjgsjjgsdfhjjczxgjd</p>
+                <img src="./imagenes/desafio.jpg" alt="desafio">
+            </div>  
+
+            <div class="col-md-4 bg-warning">
+                <h1>SEGUNDA FILA</h1>
+                <p>Debe Ser la segunda fila dgsjghgjsdfhjh,acsgjfyuajszjgsfjxgjazxfjjsdzjxfv,jdsxjxgsgj</p>
+                <img src="./imagenes/solucion.jpg" alt="solucion">
+            </div> 
+
+            <div class="col-md-4 bg-success">
+                <h1>TERCERA FILA </h1>
+                <p>Debe ser la tercera fila jsdfhhsdgfgsdjbzjgfusjgzxcgjsldfjsdulfxcjszgxjfcgdjxfggdjxgv</p>
+                <img src="./imagenes/impacto.jpg" alt="impacto">
+            </div>  
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
